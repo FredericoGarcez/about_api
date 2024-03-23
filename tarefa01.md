@@ -11,8 +11,11 @@ As principais características deste conceito (pelo menos umas cinco).
     Ou seja, uma junção de padrões, ferramentas e protocolos, permitindo integração e comunicação de softwares.
 
 
-## Funcionamento de uma API ##     
-    ### API WEB ###
+### Funcionamento de uma API ###    
+    <details>
+      <summary>API WEB</summary>
+      <p>TESTE</p>
+    </details>
             
-
+    
         
