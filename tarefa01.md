@@ -4,8 +4,15 @@ Rest API<a name="TOP"></a>
 As definições dos conceitos envolvidos;
 As principais características deste conceito (pelo menos umas cinco).
 
-# DEFINIÇÃO DE API #
+# Definição de API #
 
     API é um acrônimo em inglês para Application Programming Interface, traduzindo, Interface de Programação de Aplicações.
 
     Ou seja, uma junção de padrões, ferramentas e protocolos, permitindo integração e comunicação de softwares.
+
+
+## Funcionamento de uma API ##     
+    ### API WEB ###
+            
+
+        
