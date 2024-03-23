@@ -12,11 +12,11 @@ As principais características deste conceito (pelo menos umas cinco).
 
 
 ### Funcionamento de uma API ###    
-    .
-    <details>
-      <summary>API WEB</summary>
-      <p>TESTE</p>
-    </details>
+
+<details>
+  <summary>API WEB</summary>
+  <p>TESTE</p>
+</details>
             
     
         
