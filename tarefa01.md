@@ -19,8 +19,8 @@ As principais características deste conceito (pelo menos umas cinco).
 </details>
             
 API WEB serve como ponte entre cliente e servidor, sendo utilizado protpolos web, como o HTTP
-* O QUE É HTTP
+* O que é HTTP
 
 
-O HTTP, sigla para Hypertext Transfer Protocol, é um protocolo fundamental para a comunicação na internet. Ele define como as informações são transferidas entre um navegador web e um servidor, permitindo que você acesse páginas web, baixe arquivos e utilize diversos serviços online.
+    HTTP, sigla para Hypertext Transfer Protocol, é um protocolo fundamental para a comunicação na internet. Ele define como as informações são transferidas entre um navegador web e um servidor, permitindo que você acesse páginas web, baixe arquivos e utilize diversos serviços online.
         
