@@ -18,7 +18,7 @@ As principais características deste conceito (pelo menos umas cinco).
   <p>TESTE</p>
 </details>
             
-API WEB serve como ponte entre cliente e servidor, sendo utilizado protpolos web, como o HTTP
+API WEB serve como ponte entre cliente e servidor, sendo utilizado protocolos web, como o HTTP
 * O que é HTTP
 
 
