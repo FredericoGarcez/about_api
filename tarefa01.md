@@ -24,3 +24,9 @@ API WEB serve como ponte entre cliente e servidor, sendo utilizado protocolos we
 
     HTTP, sigla para Hypertext Transfer Protocol, é um protocolo fundamental para a comunicação na internet. Ele define como as informações são transferidas entre um navegador web e um servidor, permitindo que você acesse páginas web, baixe arquivos e utilize diversos serviços online.
         
+*Seu funcionamento acontece da seguinte forma:
+
+    * O servidor aguarda por requisições.
+    * O cliente envia uma requisição HTTP para o endpoint adequado no servidor (por exemplo, GET /tasks ou POST /tasks).
+    * O servidor processa a requisição, realiza as operações necessárias (obter ou adicionar tarefas) e retorna uma resposta ao cliente, geralmente em formato JSON.
+    * O cliente recebe a resposta e pode então processar os dados conforme necessário.
