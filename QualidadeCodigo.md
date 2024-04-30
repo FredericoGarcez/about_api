@@ -6,7 +6,9 @@ Qualidade de Código<a name="TOP"></a>
 # Execução #
 
 *Princípio dos 4 olhos.
+
 *Além de você outras pessoas devem fazer análise do seu código.
+
 *Entender as regras de negócio, erros foram tratados, testes sendo funcionais, verificar se está legível o código.
 
 # Integração Contínua #
@@ -24,6 +26,7 @@ Qualidade de Código<a name="TOP"></a>
 # Análise de bugs #
 
 *O único erro real, é aquele que não aprendemos nada.
+
 *São necessários para evitar erros futuros.
 
 # Métricas de Código #
