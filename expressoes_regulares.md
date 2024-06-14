@@ -11,11 +11,11 @@ Para validar uma senha que possua tamanho entre 8 e 12 caracteres, contenha letr
 
 ^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,12}$
 
-using System;
-using System.Text.RegularExpressions;
-
-
 Aplicação utilizando C#:
+
+
+    using System;
+    using System.Text.RegularExpressions;
 
     class Program
     {
