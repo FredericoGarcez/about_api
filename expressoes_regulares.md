@@ -17,26 +17,26 @@ using System.Text.RegularExpressions;
 
 Aplicação utilizando C#:
 
-class Program
-{
-    static void Main()
+    class Program
     {
-        string login = "user!123";
-        string password = "Password1!";
-
-        Console.WriteLine("Login válido: " + ValidateLogin(login)); // Output: Login válido: True
-        Console.WriteLine("Senha válida: " + ValidatePassword(password)); // Output: Senha válida: True
+        static void Main()
+        {
+            string login = "user!123";
+            string password = "Password1!";
+    
+            Console.WriteLine("Login válido: " + ValidateLogin(login)); // Output: Login válido: True
+            Console.WriteLine("Senha válida: " + ValidatePassword(password)); // Output: Senha válida: True
+        }
+    
+        static bool ValidateLogin(string login)
+        {
+            string loginPattern = @"^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{5,30}$";
+            return Regex.IsMatch(login, loginPattern);
+        }
+    
+        static bool ValidatePassword(string password)
+        {
+            string passwordPattern = @"^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,12}$";
+            return Regex.IsMatch(password, passwordPattern);
+        }
     }
-
-    static bool ValidateLogin(string login)
-    {
-        string loginPattern = @"^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{5,30}$";
-        return Regex.IsMatch(login, loginPattern);
-    }
-
-    static bool ValidatePassword(string password)
-    {
-        string passwordPattern = @"^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,12}$";
-        return Regex.IsMatch(password, passwordPattern);
-    }
-}
