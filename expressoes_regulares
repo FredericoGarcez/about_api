@@ -1,0 +1,8 @@
+# Validação de Login e Senha com Expressões Regulares
+
+## 1. Expressão Regular para Validar Login
+
+Para validar um login que possua tamanho entre 5 e 30 caracteres e que contenha letras, números e caracteres especiais, usamos a seguinte expressão regular:
+
+```regex
+^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{5,30}$
